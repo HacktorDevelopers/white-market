@@ -1,0 +1,241 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+    /* text-align: center */
+}
+
+div {
+    /* border: 1px solid blue; */
+}
+
+body {
+    /* background: black; */
+}
+
+.usefull_links {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    background: black !important;
+    
+}
+
+.usefull_links > a {
+    margin-right: 2px auto;
+    color: white !important;
+}
+
+* {
+    font-family: cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: cursive !important;
+}
+
+
+/* 
+.container {
+    background: white !important;
+    height: 100% !important;
+} */
+
+#left-side {
+    position: static;
+}
+
+#left-side > .card > .card-header {
+    background: gold;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#logo {
+    margin-top: -15px;
+}
+
+#header {
+    background: white !important;
+}
+
+#header-right > a {
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
+}
+
+#search-bar > div > input[type=search], #search-bar > div > button, #search-bar > div > select {
+    border-radius: 0px !important;
+}
+
+#search-bar > div > input[type=search], #search-bar > div > select {
+    width: 100% !important;
+}
+
+#search-bar > div > input[type=search]:focus, #search-bar > div > select:focus {
+    outline: 0px;
+    border: 0px;
+    background: whitesmoke;
+}
+#search-bar > div {
+    margin-left: 0px;
+}
+
+#notifiyer {
+    display: none;
+    position: fixed;
+    z-index: 99999999999999999;
+}
+
+.card-header {
+    color: white !important;
+}
+
+.option-menu {
+    display: none;
+    position: fixed;
+    z-index: 999;
+}
+.products-header {
+    border-radius: 5px;
+    background: gold; 
+    padding: 10px;
+    font-weight: 540
+}
+
+.product {
+    padding: 5px auto;
+    margin: 10px;
+    text-align: center;
+}
+
+.header, .products, #left-side > .card {
+    box-shadow: 1px 1px 6px black;
+}
+
+.product {
+    border-bottom: 1px solid gold;
+}
+.product > img {
+    max-height: 300px;
+    max-width: 10000px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 5px;
+    background: gray !important;
+    color: gold;
+}
+
+.bg-white-smoke {
+    background: whitesmoke !important;
+}
+
+.bg-gold {
+    background: rgba(253, 245, 174, 0.904) !important;
+}
+
+/* My Toast */
+
+.toast {
+    display: none;
+    position: fixed;
+    top: 10px;
+    z-index: 9999;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+.toast > .toast-header {
+    display: flex;
+}
+
+.toast > .toast-body {
+    display: flex;
+}
+
+.card-img-overlay {
+    position: absolute !important;
+    top: 10px !important; 
+    background-color: rgba(248, 236, 168, 0.5) !important;
+    padding: 5px;
+    width: 100%;
+    margin: 0px;
+    right: 0px;
+}
+.product > .card-img {
+    height: 150px; width: 100%;
+}
+
+
+  p {
+    margin: 0 0 1.5em;
+  }
+  
+  *::-webkit-scrollbar {
+      width: 10px;
+      height: 0px;
+      color: blue !important;
+      box-shadow: 1px 1px 6px black;
+      background: yellow !important;
+      border-radius: 10px;
+  }
+
+#product_images::-webkit-scrollbar {
+    width: 0px;
+    height: 10px;
+    color: blue !important;
+    box-shadow: 1px 1px 6px black;
+    background: yellow !important;
+    border-radius: 10px;
+}
+ 
+   
+  *::-webkit-scrollbar-thumb {
+    background-color: yellow;
+    border: 1px solid green;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 10px;
+  }
+
+  *.focus {
+    outline-width: 0px;
+  }
+
+  * {
+      list-style: none;
+  }
+
+  .footer > div > .list-group {
+      /* background: black !important; */
+      /* border: 0px; */
+  }
+
+  .icons{
+      margin: 5px;
+  }
+
+  .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+ html {
+     font-size: 12px;
+ }
